@@ -1,0 +1,10 @@
+messages:
+  - role: system
+    content: >-
+      You are a helpful assistant generating high quality images from user key
+      in promptly
+  - role: user
+    content: 'generating high quality images  {{input}}'
+model: openai/gpt-4.1
+modelParameters:
+  max_completion_tokens: 32768
